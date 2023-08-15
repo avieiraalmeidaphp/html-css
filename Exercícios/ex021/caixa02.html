@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <title>Grouping tags</title>
+      <!-- <link rel='shortcut icon' href='imagens/favicon.ico' type='image/x-icon'> -->
+      <style>
+        body{
+            background-color: rgb(78, 78, 78);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+            }
+
+            h2 {
+                text-align: center
+            }
+            p {
+                text-align: center;
+            }
+            /* h1 {
+                box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.288);
+            }
+             */
+
+header {
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: rgb(105, 105, 105);
+    padding: 3px;
+    box-shadow: 1px 1px 3px 1px rgba(66, 65, 65, 0.548);
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(241, 241, 239);
+    font-weight: bold;
+    padding: 20px 10px 20px 10px;
+    
+    
+}
+a:hover {
+    color: rgb(240, 178, 178);
+}
+            
+
+            iframe{
+                margin: auto;
+                display: block;
+                border-radius: 20px;
+               
+            }
+
+            footer {
+                background-color: black;
+                color: aliceblue;
+                padding: 1px;
+                margin: 0%;
+                
+            }
+            footer > p {
+                font-size: 0.7em;
+                margin: 0px;
+                padding: 3px;
+            }
+            main {
+                text-align: center;
+                width: auto;
+                padding: 30px;
+            }
+            article {
+                background-color: rgb(225, 243, 253);
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.253);
+            }
+
+            .embed-container {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+ max-width: 100%;
+ height: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+      </style>
+     </head>
+     <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Loja</a>
+                <a href="#">Blog</a>
+                <a href="#">Sobre</a>
+                <a href="#">Promoções</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <p>Nossa Progressiva</p>
+                <article>
+                    <h2>Nossa Progressiva sem formol</h2>
+                    <div class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ge5ssUwBx7A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad aperiam minus ea itaque eligendi eveniet perspiciatis, eaque aliquam culpa similique explicabo animi vero laboriosam sequi! Quaerat officiis dignissimos ratione sunt ullam doloribus. Consequatur eum illo dolor laborum ea fugiat facere consectetur hic, nihil voluptatum, sed architecto numquam sint sequi totam odio magni, in qui aliquid? Facere, veniam praesentium blanditiis illo quas in mollitia a, eos nobis inventore nisi. Magni.</p>
+                    <aside>Marc Blanche - Profissional</aside>
+
+                </article>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Airton Almeida - Todos os direitos reservados</p>
+        </footer>
+     </body>
+</html>

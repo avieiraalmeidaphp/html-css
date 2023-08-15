@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div{
+    background-color: azure;
+    height: 400;
+    width: 400;
+    border:1px solid black ;
+    padding: 2px;
+    /* margin: 5px; */
+    display: inline-block;
+}
+div:hover{
+    background-color: yellow;    
+}
